@@ -2,6 +2,7 @@
 tekst-til-tale.ps1
 En enkel norsk PowerShell tekst-til-tale (TTS) skript som bruker System.Speech.
 Bruk: powershell -ExecutionPolicy Bypass -File .\tekst-til-tale.ps1 -Text "Hei verden" [-OutputFile hello.wav] [-Voice "Microsoft Karen Desktop"] [-Rate -2]
+
 #>
 param(
     [Parameter(Mandatory=$true)]
